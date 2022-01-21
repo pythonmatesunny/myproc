@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap');
+
+:root{
+    --btn-color:rgb(86, 86, 189);
+    --font-family:'Poppins', sans-serif;
+    --form-backgroundcolor: rgba(240, 229, 229, 0.993);
+    --body-backgroundcolor:rgb(202, 202, 240);
+}
+
+body{
+    background-color: var(--body-backgroundcolor);
+}
+
+#video{
+    border-radius: 5%;
+}
+.toast{
+    height: 50px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+.toast .toast-header{
+    background-color:  rgba(240, 229, 229, 0.993);
+    font-weight: bolder;
+    border-radius: 25px;
+}
+
+/* alert heading */
+.alter_head{
+    font-size: large;
+    color: rgb(233, 41, 41);
+}
+
+
+.alert_msgbody{
+    font-size: 1.3em;
+}
+.reg_form{
+    font-weight: 600;
+    background-color: rgba(240, 229, 229, 0.993);
+    border-radius: 6%;
+    box-shadow: 3px 3px grey;
+    
+}
+
+.btn{
+    font-size: 1.2em;
+    background-color: var(--btn-color);
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.btn:target{
+    background-color: var(--btn-color)
+}
+
+.form-head{
+    font-family: var(--font-family);
+    font-weight: bolder;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+
+#camera_title{
+    font-family: var(--font-family);
+    font-weight: bolder;
+}
+
+.toast-header > *{
+    margin: 0 5% 0 5%;
+}
+
+#webcam_issue{
+    font-size: medium;
+    font-weight: bolder;
+}
+
+#webcam_issue .toast-header{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    border-radius: 25px;
+}
+
+/* modal opacity */
+
+#alter_model{
+    background-color: rgba(116, 89, 89, 0.623);
+}
+
+.modal-dialog{
+    top: 40%;
+}
+
+.modal-dialog .modal-content{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    border-radius: 25px;
+}
+
+.captured_image{
+    border-radius: 30px;
+}
+
+label{
+    text-transform: capitalize;
+}
+
+
+input[type*="text"]:focus{
+    background-color: rgb(236, 236, 201);
+}
+
+/* 
+
+.take_picbutton{
+    display: none;
+} */
+
